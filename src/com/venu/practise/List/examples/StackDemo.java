@@ -34,7 +34,7 @@ public class StackDemo {
 		System.out.println("Iterating the elements one by one in stack");
 		while(itr.hasNext()) {
 			System.out.println(itr.next()); //[A,B,C,D,X]
-			//st.add("N");
+			//st.add("N");1
 		}
 
 	}

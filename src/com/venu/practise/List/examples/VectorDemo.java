@@ -9,7 +9,7 @@ import java.util.Vector;
 * 2) Insertion order is preserved.
 * 3) Null is allowed.
 * 4) Heterogeneous  elements are allowed.
-* 5) Duplicates are allowed.
+* 5) Duplicates are allowed.1
 * 6) It implements RandaomAccess interface, hence retrieval is fast in Vector.
 * 7) It is a legacy Class
 * 8) Synchronized.

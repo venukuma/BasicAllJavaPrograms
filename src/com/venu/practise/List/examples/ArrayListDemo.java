@@ -20,7 +20,7 @@ import java.util.List;
  * 12) Not a thread safe
  * 13) It is fail-fast
  * 14) It implements Serialization,cloanable and RandomAccess
- * 15) If trying to modify while iterating the list we will get ConcurrentModificationException
+ * 15) If trying to modify while iterating the list we will get ConcurrentModificationException 1
  * 
  */
 

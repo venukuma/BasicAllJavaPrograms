@@ -10,7 +10,7 @@ import java.util.List;
  * 2) Insertion order is preserved.
  * 3) Null is allowed.
  * 4) Heterogeneous  elements are allowed.
- * 5) Duplicates are allowed.
+ * 5) Duplicates are allowed.1
  * 6) It wont implements RandomAccess interface, hence retrieval is not fast in LinkedList.
  * 7) It is best for manipulation bcz there is no shifting operations and it follows nodes.
  * 10) Non-Synchronized.
