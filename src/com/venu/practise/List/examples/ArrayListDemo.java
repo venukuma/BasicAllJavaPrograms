@@ -20,6 +20,7 @@ import java.util.List;
  * 12) Not a thread safe
  * 13) It is fail-fast
  * 14) It implements Serialization,cloanable and RandomAccess
+ * 15) If trying to modify while iterating the list we will get ConcurrentModificationException
  * 
  */
 
@@ -41,6 +42,7 @@ public class ArrayListDemo {
 		System.out.println(list); //[A,B,C,A,Z]
 		System.out.println(list.remove(4)); //Z
 		System.out.println(list);//[A,B,C,A]
+		//list.clear();
 		
 		//iteration the list
 		Iterator<String> itr = list.iterator();
