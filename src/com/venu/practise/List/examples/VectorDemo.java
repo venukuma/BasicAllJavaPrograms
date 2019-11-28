@@ -9,10 +9,10 @@ import java.util.Vector;
 * 2) Insertion order is preserved.
 * 3) Null is allowed.
 * 4) Heterogeneous  elements are allowed.
-* 5) Duplicates are allowed.1
+* 5) Duplicates are allowed.
 * 6) It implements RandaomAccess interface, hence retrieval is fast in Vector.
 * 7) It is a legacy Class
-* 8) Synchronized.
+* 8) Every method in vesctor is Synchronized.
 * 9) It is A thread safe
 * 10) It implements Serialization and cloanable and RandomAccess (Only Vector and ArrayList implements RandomAccess Interface)
 * 11) initial capacity is 10 and increases the capacity double once its fulled.
